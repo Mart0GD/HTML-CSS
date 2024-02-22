@@ -1,0 +1,28 @@
+
+main{
+    width: 900px;
+    height: 140px;
+}
+
+#first{
+    float: left;
+    margin-right: 19px;
+    padding: 0 19px 19px 0px;
+    border-right: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#second{
+    float: right;
+    margin-left: 19px;
+    padding: 19px 0px 19px 19px;
+    border-left: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+p{
+    font: 20px/30px;
+    color: #2e2e2e;
+    text-align: justify;
+}

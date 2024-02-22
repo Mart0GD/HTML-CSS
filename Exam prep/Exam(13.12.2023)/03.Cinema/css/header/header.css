@@ -1,0 +1,32 @@
+
+
+.site-header .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+
+    background-color: #fff;
+}
+
+
+.title{
+    display: flex;
+    padding: 2em 0 2em 3em;
+    align-items: flex-end;
+    font-weight: 800;
+    line-height: 1;
+
+}
+
+.site-title{
+    border-right: 2px solid #DFDFDF;
+    color: #313131;
+    padding-right: 0.3em;
+}
+
+.author{
+    font-size: 0.8em;
+    opacity: 0.5;
+
+    padding-left: 2em;
+}

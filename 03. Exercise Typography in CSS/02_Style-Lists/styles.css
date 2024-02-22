@@ -1,0 +1,21 @@
+/* TODO: style the html */
+
+html{
+    font: 18px/1.5 Helvetica sans-serif;
+    background-color: #ededed;
+}
+
+h2{
+    text-decoration: underline;
+    padding: 20px;
+    margin: 10px 5px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+
+    background-color: #3B516B;
+    color: floralwhite;
+}
+
+article li{
+    margin-left: 20px;
+}

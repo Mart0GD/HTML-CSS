@@ -1,0 +1,37 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+
+    color: white;
+    background-color: rgb(7, 2, 26);
+}
+
+footer ul,
+footer p{
+    opacity: 0.7;
+}
+
+footer h3{
+    font-weight: 1000;
+}
+
+
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0;
+
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.footer-main ul li{
+    list-style: none;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+
+.footer-copy{
+    text-align: center;
+}

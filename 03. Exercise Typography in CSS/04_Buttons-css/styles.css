@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+body, button, input{
+    font: inherit;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 0.5em 0.9em;
+    margin: 0;
+    border-radius: 2em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.button.filled{
+    background-color: grey;
+}
+
+.button.icon i{
+    margin-right: 0.4em;
+}
+
+.icon:before{
+    display: inline-block;
+    content: '\f019';
+    font-family: "Font Awesome 5 Free";
+
+    margin-right: 0.4em;
+}
+
+.hover:hover{
+    background-color: rgb(13, 136, 89);
+    border-color: rgb(13, 136, 89);
+}
+

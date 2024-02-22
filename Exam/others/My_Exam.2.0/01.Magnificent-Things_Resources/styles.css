@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.2 "Inter", sans-serif;
+}
+
+h1,[class*="site-title"]{font-size: 3.15em; font-weight: 800; padding-bottom: 0.5em;}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    
+}
+
+.site article{
+    display: flex;
+    gap:6.5em;
+
+    padding: 4.3em 2.3em;
+
+    max-width: 1060px;
+    background-color: #85DCFF;
+}
+
+.site article .media img{
+    width: 360px;
+    box-shadow: 0.5em 0.5em 0.8em 0 rgba(0, 0, 0, 0.9);
+}
+
+.site article .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 2em;
+}
+
+.site article .description .buttons{
+    display: flex;
+    gap: 1.2em;
+    padding: 0;
+}
+
+.site *[class*="button"]{
+    padding: 0.8em 2em;
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.site article .description .buttons .button-interactable{
+    background-color: #42AA59;
+    border: 1px solid black;
+}
+
+.site article .description .buttons .button-interactable:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.site article .description .buttons .button-white{
+    background-color: #fff;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 17px/1.5 "Agbalumo", system-ui;;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+.usa{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 870px;
+    max-height: 727px;
+    border: 2px solid black;
+
+}
+
+header,
+.facts ul{
+    background-color: #D5EBEA;
+}
+
+header,
+.info{
+    padding: 2em 2em 0em 1em;
+}
+
+header .site-title{
+    font-size: 2.25em;
+}
+
+header .site-title,
+header .undertitle{
+    border-bottom: 2px solid black;
+}
+
+.info{
+    display: flex;
+    gap: 1.2em;
+}
+
+.card{
+    flex: 0 0 300px;
+    padding: 0.7em 0.88em 0.88em 0.7em;
+
+    font-size: 0.7em;
+
+    border: 2px solid black;
+}
+
+.card p{
+    margin-top: 1.6em;
+    text-indent: 3em;
+}
+
+.info .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875em;
+
+    justify-content: center;
+    text-indent: 2em;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.facts h2{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+    width: 45%;
+    font-size: 1.38em;
+}
+
+.facts ul{
+    padding: 1em 0;
+}
+.facts ul li{
+    list-style: none outside;
+    margin-left: 2em;
+}

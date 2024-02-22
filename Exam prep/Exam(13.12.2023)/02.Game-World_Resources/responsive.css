@@ -1,0 +1,162 @@
+
+@media screen and (width <= 600px) {
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .game-world-header{
+        max-height: 125px;
+    }
+
+    .tm-header{
+        position: relative;
+    }
+
+    .tm-header-inner{
+        padding: 0;
+        align-items: center;
+    }
+
+    .tm-site-logo{
+        max-width: 50px;
+    }
+
+    .tm-site-title{
+        font-size: 24px;
+    }
+
+    .tm-site-description{
+        font-size: 12px;
+    }
+
+    .tm-nav{
+        margin-top: 1em;
+        font-size: 12px;
+    }
+
+    /* welcome */
+    .tm-welcome-section{
+        margin: 2em 0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tm-section-title{
+        width: 300px;
+        margin: 0 auto;
+        font-size: 34px;
+    }
+
+    .tm-welcome-section p{
+        font-size: 18px;
+    }
+
+    /* main nav */
+
+    .tm-paging-links {
+        margin-bottom: 1.5em;
+    }
+
+    .tm-paging-links ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tm-paging-item{
+        font-size: 18px;
+    }
+
+    .tm-paging-link{
+        padding: 0.5em 1.5em;
+    }
+
+    /* gallery */
+
+    .tm-gallery,
+    .tm-gallery *{
+        margin: 0;
+    }
+
+    .tm-gallery-page{
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        margin-bottom: 4em;
+    }
+
+    .tm-gallery-item{
+        max-width: 300px;
+    }
+
+    .tm-gallery-page figcaption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        
+    }
+
+    .tm-gallery-page figcaption h4{
+        margin-top: 0.5em;
+        font-size: 26px;
+        text-align: center;
+        
+    }
+
+    .tm-gallery-page figcaption .tm-gallery-description{
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .tm-gallery-page figcaption .tm-gallery-price{
+        font-size: 22px;
+        align-self: flex-start;
+    }
+
+    /* joystick photo */
+
+    .tm-cta-section{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .tm-cta-section>article{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .tm-cta-section>article article:nth-child(2){
+        padding: 0;
+    }
+
+    .tm-cta-section>article article:nth-child(2) article {
+        text-align: left;
+        width: 300px;
+    }
+
+    .tm-cta-section>article article:nth-child(2) h4{
+        font-size: 24px;
+    }
+    
+    .tm-cta-section>article article:nth-child(2) p{
+        font-size: 16px;
+    }
+
+    .tm-cta-section>article article:nth-child(2) a{
+        padding: 0.5em 2em;
+    }
+
+    .tm-description-figure{
+        width: 300px;
+        padding: 0;
+    }
+    
+    footer{
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,20 @@
+
+.site-footer{
+    background-color: #56DBB1;
+}
+
+.site-footer .container{
+    padding: 3em 0;
+    text-align: center;
+}
+
+.site-footer .container p{
+    color: #dbfaeb8f;
+
+    letter-spacing: 2px;
+}
+
+span{
+    opacity: 1;
+    color: #ffffff;
+}

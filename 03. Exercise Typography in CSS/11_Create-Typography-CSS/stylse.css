@@ -1,0 +1,39 @@
+
+body{
+    font: 16px/1.5 Helvetica, sans-serif ;
+
+    padding: 30px;
+    margin: 45px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+th{
+    background-color: rgba(94, 94, 94, 0.342);
+}
+
+tr>td:first-child{
+    text-align: left;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td, th{
+    width: 144px;
+    height: 32px;
+    text-align: center;
+    
+    border: 1px solid #ccc;
+}
+
+blockquote{
+    padding: 0.2em 0em 4em 1.2em;
+
+    border-left: 4px solid rgb(221,221,221);
+    font-style: italic;
+}

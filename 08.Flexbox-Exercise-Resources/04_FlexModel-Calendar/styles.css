@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3em 8em
+}
+
+h2{
+    font: 18px/1.5 Arial, serif;
+}
+
+.table{
+    display: flex;
+}
+
+.calendar{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 50%;
+    height: 50%;
+    flex-grow: 1;
+}
+
+.calendar>section{
+    flex: 1 0 100%;
+}
+
+.title{
+    text-align: center;
+    padding: 1em 6em 4em 6em;
+
+    border: 1px solid black;
+}
+
+.days{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+}
+
+.days *{
+    padding: 1em;
+    flex: 1 0 auto;
+    
+    height: 7em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.extra_fields{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 200px;
+}
+
+.extra_fields>*{
+    padding: 0.5em 2em;
+    border: 1px solid black;
+    text-align: center;
+
+    flex: 1 0 100%;
+}

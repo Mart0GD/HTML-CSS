@@ -1,0 +1,48 @@
+
+.pricing-plans{
+    background-color: #F5F5F5;
+}
+
+.pricing-plans .container{
+    display: flex;
+    gap: 2.5em;
+
+    background-color: #fff;
+    padding: 3em;
+}
+
+.pricing-plans .container .description{
+    width: 500px;    
+}
+
+.pricing-plans .container .description p{
+    margin-top: 3em;
+}
+
+.pricing-plans .container>*[class*="plan"]{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 510px;
+    
+    padding: 2.5em;
+
+    & .price{
+        font-size: 4.3em;
+        font-weight: 300;
+    }
+}
+
+.pricing-plans .container *[class*="button"]{
+    margin-top: 3em;
+}
+
+.pricing-plans .container .free-plan{
+    background-color: #FF7C4C;
+}
+
+.pricing-plans .container .premium-plan{
+    color: #fff;
+    background-color: black;
+}

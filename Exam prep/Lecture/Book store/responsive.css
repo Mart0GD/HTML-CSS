@@ -1,0 +1,33 @@
+
+@media (width<=600px) {
+    
+    .home-navbar1{
+        display: none;
+    }
+
+    .home-full-width-banner{
+        flex-direction: column;
+    }
+
+    .home-left4{
+        padding: 2em;
+        
+    }
+
+    .home-text30{
+        width: 100%;
+    }
+
+    .home-image6{
+        width: 100%;
+    }
+
+    .home-footer1{
+        flex-direction: column-reverse;
+        padding: 2em 0.5em;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+    }
+}

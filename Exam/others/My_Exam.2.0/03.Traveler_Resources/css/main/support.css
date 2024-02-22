@@ -1,0 +1,18 @@
+
+.support{
+    background-color: #E14747;
+}
+
+.support .container{
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+
+    max-width: 300px;
+}
+
+.support .header{
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+}

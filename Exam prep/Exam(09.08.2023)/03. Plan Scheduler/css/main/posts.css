@@ -1,0 +1,43 @@
+
+.posts{
+    background-color: #D9D9D9;
+}
+
+.posts .container{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    padding: 5em 0;
+}
+
+.posts .container article{
+    display: flex;
+    gap: 2em;
+}
+
+.posts .container article .media img{
+    width: 625px;
+    height: 425px;
+}
+
+.posts .container article .info{
+    display:  flex;
+    flex-direction: column;
+    gap: 2em;
+
+    opacity: 0.7;
+}
+
+.posts .container article .info .post-title{
+    opacity: 1;
+}
+
+.posts .container article .info .author{
+    margin-top: 3em;
+}
+
+.posts .container article .info .overheading{
+    opacity: 0.8;
+    font-weight: 800;
+}

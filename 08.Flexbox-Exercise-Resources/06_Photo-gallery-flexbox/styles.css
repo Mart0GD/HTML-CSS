@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3em 2em;
+    padding: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    gap: 2em;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1em;
+    border: 5px solid black;
+}

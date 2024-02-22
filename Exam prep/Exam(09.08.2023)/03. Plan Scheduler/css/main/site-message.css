@@ -1,0 +1,33 @@
+
+.site-message{
+    
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.site-message .container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 763px;
+}
+
+.site-message .container .message{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding-left: 10em;
+    width: 900px;
+}
+
+
+.site-message .container .message .button{
+    align-self: flex-start;
+}
+
+.site-message .container .message .text{
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+}

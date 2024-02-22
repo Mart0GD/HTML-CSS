@@ -1,0 +1,27 @@
+
+.site-header .container{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 5em;
+}
+
+.site-header .container .media img{
+    width: 115px;
+}
+
+.site-header .container nav ul{
+    display: flex;
+    gap: 3em;
+
+}
+
+.site-header .container nav ul li{
+    list-style: none outside;
+}
+
+.site-header .container nav ul li a{
+    color: #fff;
+}

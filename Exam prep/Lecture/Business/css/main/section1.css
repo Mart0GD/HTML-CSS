@@ -1,0 +1,14 @@
+
+.sec1{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+
+    padding-bottom: 5em;
+    border-bottom: 1px solid gray;
+}
+
+.sec1-text1,
+.sec1-text2{
+    width: 550px;
+}

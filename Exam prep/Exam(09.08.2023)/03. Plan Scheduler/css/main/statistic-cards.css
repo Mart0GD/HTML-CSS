@@ -1,0 +1,31 @@
+
+.site-statistics-cards{
+    background-color: rgb(243, 245, 247);
+}
+
+.site-statistics-cards .container{
+    
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5em 2em 2em 2em;
+}
+
+.site-statistics-cards .container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    max-width: 400px;
+    font-size: 15px;
+}
+
+.site-statistics-cards .container .card .number{
+    font-size: 3.3em;
+    font-weight: 900;
+    color: #FF7C4C;
+}
+

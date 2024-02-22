@@ -1,0 +1,27 @@
+
+.article{
+    background-color: #F8F0E9;
+}
+
+.article .container{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+
+    padding: 4em 0;
+    max-width: 525px;
+}
+
+.article .container h3{
+    text-align: center;
+    margin: 0 auto;
+    color: #352B2A;
+}
+
+.article .container .button:first-of-type{
+    align-self: flex-start;
+}
+
+.article .container .button:last-of-type{
+    align-self: center;
+}

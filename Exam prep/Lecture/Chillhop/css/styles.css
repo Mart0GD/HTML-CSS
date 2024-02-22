@@ -1,0 +1,57 @@
+
+body{
+    margin: 1em 2em;
+}
+
+h2{
+    margin: 0.5em 0;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site{
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+
+    background-color: rgb(58, 109, 204);
+    border: 4px solid black;
+    border-radius: 1em;
+}
+
+.entry-title{
+    margin: 1em 0;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.interactables{
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    margin-top: 2em
+}
+
+[class*="button"]{
+    padding: 0.2em 0.5em;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 0.3em;
+}
+
+.button-red{
+    color: white;
+    background-color: rgb(238, 14, 107);
+}
+
+.info{
+    text-indent: 2.5em;
+}

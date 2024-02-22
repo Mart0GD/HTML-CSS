@@ -1,0 +1,17 @@
+
+main{
+    width: 400px;
+    background-color: #dddddd;
+    border: solid 1px black;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+p{
+    text-wrap: wrap;
+    font-size: 18px;
+}

@@ -1,0 +1,18 @@
+
+.testimonial{
+    background-color: #fff;
+}
+
+.testimonial .container{
+    padding: 3em 0 5em 0;
+}
+
+.testimonial .container p{
+    opacity: 0.9;
+}
+
+.testimonial .container h3{
+    margin-top: 1em;
+    font-style: italic;
+    color: #352B2A;
+}

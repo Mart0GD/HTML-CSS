@@ -1,0 +1,19 @@
+.my-list{
+
+background-color: #f7f381;
+width: 500px;
+border: 1px solid #f7f381;
+padding: 5px 24px;
+font-size: 30px;
+box-shadow: 0px 0px 10px 20px #3333;
+margin: auto;
+}
+
+
+p{
+    text-align: center;
+}
+
+ol{
+    margin: 12px;
+}

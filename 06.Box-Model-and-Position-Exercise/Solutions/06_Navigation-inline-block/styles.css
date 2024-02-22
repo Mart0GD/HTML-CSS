@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 1.5em 3em;
+}
+
+header *{
+    display: inline-block;
+}
+
+main{
+    border-top: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(111, 187, 111);
+    
+    padding-right: 1em;
+}
+
+.title{
+    margin-right: 2.5em;
+    text-transform: uppercase;
+}
+
+.article_title{
+    font-size: 1.3em;
+    font-weight: 500;
+}
