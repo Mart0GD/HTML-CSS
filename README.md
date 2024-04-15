@@ -1,7 +1,3 @@
-Certainly! Here's a sample README file detailing your progress throughout SoftUni's HTML and CSS course:
-
----
-
 # HTML and CSS Course Progress Tracker
 
 Welcome to my progress tracker for SoftUni's HTML and CSS course! 🎓
@@ -56,10 +52,11 @@ Join me on this learning journey and let's grow together! 💻✨
 
 Feel free to customize this README according to your specific progress and experiences throughout the course!
 
-Certificate
+                                                            Certificate
 ---
 
-![HTML   CSS - January 2024 - Certificate](https://github.com/Mart0GD/HTML-CSS/assets/122825014/217ab9ae-6bdd-4fc7-b971-536acdd6bb3c)
+![HTML   CSS - January 2024 - Certificate](https://github.com/Mart0GD/HTML-CSS/assets/122825014/3928e852-a82a-42ff-a313-80cb619b1ad8)
+
 
 
 
