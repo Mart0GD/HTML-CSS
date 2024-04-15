@@ -25,15 +25,21 @@ This repository serves as a documentation of my journey through SoftUni's HTML a
 
 ## Progress
 
-- [x] Module 1: Introduction to HTML
-- [x] Module 2: HTML Structure
-- [ ] Module 3: HTML Forms
-- [ ] Module 4: Introduction to CSS
-- [ ] Module 5: CSS Styling
-- [ ] Module 6: Advanced CSS
-- [ ] Module 7: Responsive Design
-- [ ] Module 8: CSS Flexbox and Grid
-- [ ] Module 9: Project - Building a Personal Website
+- [x] Module 1: Introduction to HTML and CSS
+- [x] Module 2: Introduction to HTML and CSS Exercise
+- [x] Module 3: Typography in CSS
+- [x] Module 4: Exercise: Typography in CSS
+- [x] Module 5: Box Model & Position
+- [x] Module 6: Exercise: CSS Box Model
+- [x] Module 7: CSS Layout - Flexbox
+- [x] Module 8: Exercise: Flexbox
+- [x] Module 9: Responsive Web Design
+- [x] Module 10: Responsive Web Design
+- [x] Module 11: Exercise: Responsive Web Design
+- [x] Module 12: Form & Working with Forms
+- [x] Module 13: Exam Preparation
+- [x] Module 14: Design to Code - Demo Project
+- [x] Module 15: Regular Exam
 
 ## How to Use
 
