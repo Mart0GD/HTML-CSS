@@ -52,7 +52,7 @@ Join me on this learning journey and let's grow together! 💻✨
 
 Feel free to customize this README according to your specific progress and experiences throughout the course!
 
-                                                            Certificate
+## Certificate
 
 ![HTML   CSS - January 2024 - Certificate](https://github.com/Mart0GD/HTML-CSS/assets/122825014/3928e852-a82a-42ff-a313-80cb619b1ad8)
 
