@@ -1,5 +1,4 @@
 # HTML and CSS Course 
----
 
 Welcome to my progress tracker for SoftUni's HTML and CSS course! 🎓
 
